@@ -1,5 +1,10 @@
 #!/bin/bash
 
+export MSSQL_DB=TEST_SPRINGBOOT_REST_WS
+export MSSQL_USER=ADMCONTRACTZIT
+export MSSQL_PASSWORD=eNbqetRjVQBcex
+export SA_PASSWORD=GZVjGgOs3Z6D
+
 # Start SQL Server
 /opt/mssql/bin/sqlservr &
 
